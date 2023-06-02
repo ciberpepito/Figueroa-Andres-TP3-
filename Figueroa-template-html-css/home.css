@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100;300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif, 'Roboto', sans-serif; 
+  
+    
+}
+
+h2{ font-size: xx-large;
+
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    background-color: #6CC24A;
+    align-items: center;
+    justify-content: center;
+}
+ .imagenLogo { 
+    width:25vh;
+
+ }
+
+nav {
+  
+    flex: 0 2 auto;
+    font-size: large;
+}
+
+footer {
+    background-color: #6CC24A;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mainProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: x-large;
+    background-color: #ffb914;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw ;}
+
+p { font-size: large;
+    display:flex;
+    align-items: center ;
+    justify-content: center;
+
+}
+
+
+.fig {
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ .product-buttons{ 
+    display:flex;
+    flex-direction: row ;
+
+ }
+
+.product-buttons button{
+    font-size: large;
+    font-weight: bold;
+
+}
+
+
+ main .fig .product-buttons .espaciador{ width:20px;
+               
+ } 
+
+
+.figure1{flex: auto;
+         width: 50vw;}
+.figure2{flex: auto;
+        width: 50vw;}
+.figure3{flex: auto;
+         width: 50vw;}
+.figure4{flex: auto;
+         width: 50vw;}
+.figure5{flex: auto;
+        width: 50vw;}
+
+
+footer ul li{ font-size: large;
+
+}        
